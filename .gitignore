@@ -1,0 +1,24 @@
+# Bank Marketing project
+.env
+.env.local
+
+# Raw and processed datasets
+data/**/*.csv
+data/**/*.parquet
+data/**/*.zip
+
+# Trained model files
+models/*.joblib
+models/*.pkl
+
+# Generated charts
+reports/charts/*.png
+reports/charts/*.jpg
+
+# Local Python environment
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Local logs
+*.log
